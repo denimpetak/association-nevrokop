@@ -32,8 +32,8 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-3 text-white">Контакти</h3>
           <ul className="space-y-2 text-sm text-gray-300">
             <li>📍 с. Долно Дряново, България</li>
-            <li>📧 info@nevrokop.org</li>
-            <li>📞 +359 888 123 456</li>
+            <li>📧 tv_grad@abv.bg</li>
+            <li>📞 +359 896 850 179</li>
           </ul>
         </div>
       </div>
