@@ -5,6 +5,8 @@ export default function Footer() {
   return (
     <footer className="bg-blue-900 text-gray-200 pt-16 pb-8 mt-20">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+        
+        
         <div>
           <h3 className="text-lg font-semibold mb-3 text-white">
             Сдружение „Неврокоп“
@@ -15,6 +17,7 @@ export default function Footer() {
           </p>
         </div>
 
+       
         <div>
           <h3 className="text-lg font-semibold mb-3 text-white">Меню</h3>
           <ul className="space-y-2 text-sm">
@@ -28,6 +31,7 @@ export default function Footer() {
           </ul>
         </div>
 
+      
         <div>
           <h3 className="text-lg font-semibold mb-3 text-white">Контакти</h3>
           <ul className="space-y-2 text-sm text-gray-300">
@@ -35,6 +39,26 @@ export default function Footer() {
             <li>📧 tv_grad@abv.bg</li>
             <li>📞 +359 896 850 179</li>
           </ul>
+
+          
+          <a
+            href="https://www.facebook.com/profile.php?id=100066933953755"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition text-sm mt-4"
+          >
+           
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="white"
+              className="w-5 h-5"
+            >
+              <path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.3l-.4 3h-1.9v7A10 10 0 0 0 22 12z" />
+            </svg>
+
+            Facebook страница
+          </a>
         </div>
       </div>
 
