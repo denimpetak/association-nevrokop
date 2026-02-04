@@ -28,7 +28,6 @@ export default function Interviews() {
       mute: false,
       controls: true,
     },
-    
   ];
 
   return (
@@ -47,6 +46,7 @@ export default function Interviews() {
                 src={`${video.url}&autoplay=${video.autoplay ? 1 : 0}&mute=${video.mute ? 1 : 0}&controls=${video.controls ? 1 : 0}`}
                 width="100%"
                 height="100%"
+                title={`video-${index}`}   // ← ЕТО ТОВА ОПРАВЯ ГРЕШКАТА
                 style={{ border: "none", overflow: "hidden" }}
                 scrolling="no"
                 frameBorder="0"

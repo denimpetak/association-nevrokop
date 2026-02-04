@@ -1,7 +1,7 @@
 import React from "react";
 import HeroSlider from "../components/HeroSlider";
 import Card from "../components/common/Card";
-import SectionTitle from "../components/common/SectionTitle";
+
 
 export default function Home() {
   return (

@@ -11,7 +11,6 @@ import img6 from "../assets/projects/6.jpg";
 import img7 from "../assets/projects/7.jpg";
 import img8 from "../assets/projects/8.jpg";
 import img9 from "../assets/projects/9.jpg";
-import img10 from "../assets/projects/10.jpg";
 
 export default function ProjectDetails() {
   const { slug } = useParams();
@@ -110,7 +109,7 @@ export default function ProjectDetails() {
             <img src={img9} className="rounded-lg shadow" alt="Снимка 4" />
           </div>
 
-        {/* Текст */}
+       
         <div className="space-y-4 text-gray-800 leading-relaxed">
           <p>Проект „Еразъм+“
 2024‑1‑BG01‑K1‑YOU‑000286552
