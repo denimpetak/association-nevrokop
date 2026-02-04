@@ -41,14 +41,14 @@ export default function Contacts() {
           <p>📧 tv_grad@abv.bg</p>
           <p>📞 +359 896 850 179</p>
 
-          {/* Facebook бутон с лого */}
+         
           <a
             href="https://www.facebook.com/profile.php?id=100066933953755"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition text-sm mt-4"
           >
-            {/* Facebook икона */}
+            
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
