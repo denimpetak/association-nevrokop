@@ -38,7 +38,7 @@ export default function Contacts() {
       <Card>
         <div className="mb-6 text-sm text-gray-700 leading-relaxed">
           <p>📍 с. Долно Дряново, България</p>
-          <p>📧 tv_grad@abv.bg</p>
+          <p>📧 tv_gard@abv.bg</p>
           <p>📞 +359 896 850 179</p>
 
          
