@@ -21,6 +21,48 @@ export default function MediaArticle() {
 
       <Card>
         <h1 className="text-2xl font-bold text-blue-900 mb-2">
+          Културно разнообразие – мост между народите на Балканите!
+        </h1>
+
+        <p className="text-sm text-gray-500 mb-6">
+          • Международен младежки обмен • Сърница • 21–28 юли
+        </p>
+
+        <div className="space-y-4 text-gray-800 leading-relaxed">
+          <p>
+            🌍 Сдружение „Неврокоп“ те кани на едно незабравимо балканско приключение в сърцето на Родопите! 
+            Търсим мотивирани младежи, които искат да прекарат 8 невероятни дни сред природата, да създадат 
+            международни приятелства и да разбият стереотипите!
+          </p>
+
+          <p>
+            🗓️ <strong>Кога:</strong> 21–28 юли<br />
+            📍 <strong>Къде:</strong> гр. Сърница, яз. Доспат<br />
+            🇧🇬 🇹🇷 🇲🇰 🇦🇱 <strong>Участници:</strong> Младежи от България, Турция, Северна Македония и Албания
+          </p>
+
+          <p>
+            ✨ Какво те очаква?<br />
+            • Интерактивни работилници сред природата<br />
+            • Вечери на националните култури под звездите<br />
+            • Кулинарни изкушения и балкански рецепти<br />
+            • Екоразходки, игри за екипна работа и много забавления
+          </p>
+
+          <p>
+            🚀 За участие трябва да изготвите презентация по темата до <strong>18.06.2026 г.</strong> 
+            и да я изпратите на: <strong>dubai2010@abv.bg</strong>
+          </p>
+
+          <p className="font-semibold text-blue-900">
+            Проектът се реализира благодарение на Еразъм акредитацията на сдружение „Неврокоп“ по програма „Еразъм+“. 
+            Всички разходи за настаняване, храна и активности са 100% покрити!
+          </p>
+        </div>
+      </Card>
+
+      <Card>
+        <h1 className="text-2xl font-bold text-blue-900 mb-2">
           Национален семинар „Европейски ценности в Хартата на ЕС за основните права“
         </h1>
 
@@ -36,7 +78,7 @@ export default function MediaArticle() {
           <img src={img11} className="rounded-lg shadow h-48 w-full object-cover" alt="" />
           <img src={img12} className="rounded-lg shadow h-48 w-full object-cover" alt="" />
           <img src={img13} className="rounded-lg shadow h-48 w-full object-cover" alt="" />
-           <img src={img14} className="rounded-lg shadow h-48 w-full object-cover" alt="" />
+          <img src={img14} className="rounded-lg shadow h-48 w-full object-cover" alt="" />
         </div>
 
         <div className="space-y-4 text-gray-800 leading-relaxed">
