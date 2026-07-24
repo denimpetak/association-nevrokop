@@ -5,6 +5,14 @@ import Card from "../components/common/Card";
 export default function Interviews() {
   const videos = [
     {
+      url: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0GVd9PJJgAiEbS1zAZ98zwN7kTsZW3aPbewKxHC6i55MKedinsAjRF5Sz7cgEGU2Sl%26id%3D100066933953755&show_text=true&width=800",
+      title: "Балкански обмен – Facebook пост",
+      description: "Публикация, свързана с международния младежки обмен.",
+      autoplay: false,
+      mute: false,
+      controls: false,
+    },
+    {
       url: "https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/zapadtv.gd/videos/850176635171954/&show_text=false&width=800",
       title: "Интервю пред Запад ТВ",
       description: "Разговор за дейността на Сдружение „Неврокоп“ и последните инициативи.",
@@ -27,7 +35,7 @@ export default function Interviews() {
       autoplay: false,
       mute: false,
       controls: true,
-    },
+    }
   ];
 
   return (
@@ -43,10 +51,10 @@ export default function Interviews() {
 
             <div className="w-full aspect-video rounded-lg overflow-hidden shadow-lg">
               <iframe
-                src={`${video.url}&autoplay=${video.autoplay ? 1 : 0}&mute=${video.mute ? 1 : 0}&controls=${video.controls ? 1 : 0}`}
+                src={video.url}
                 width="100%"
                 height="100%"
-                title={`video-${index}`}   
+                title={`video-${index}`}
                 style={{ border: "none", overflow: "hidden" }}
                 scrolling="no"
                 frameBorder="0"
